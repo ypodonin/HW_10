@@ -1,0 +1,175 @@
+    1  code .
+    2  sudo apt update
+    3  sudo apt upgrade
+    4  sudo apt install build-essential curl file git
+    5  curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+    6  sudo apt install -y nodejs
+    7  npm install -g yarn
+    8  sudo npm install -g yarn
+    9  yarn --version
+   10  yarn install
+   11  yarn --version
+   12  cd
+   13  yarn create react-app tea-wikipedia
+   14  cd tea-wikipedia
+   15  cd /mnt/c/MAMP/htdocs
+   16  yarn create react-app tea-wikipedia
+   17  cd tea-wikipedia
+   18  rm -rf /mnt/c/MAMP/htdocs/tea-wikipedia
+   19  cd /mnt/c/MAMP/htdocs
+   20  find tea-wikipedia -type f -exec unlink {} \;
+   21  rm -rf tea-wikipedia
+   22  cd /mnt/c/MAMP/htdocs
+   23  rmdir /s /q tea-wikipedia
+   24  cd /mnt/c/MAMP/htdocs/tea-wikipedia
+   25  find node_modules -type f -delete
+   26  find node_modules -type d -empty -delete
+   27  cd ..
+   28  rm -rf tea-wikipedia
+   29  cd /mnt/c/MAMP/htdocs
+   30  sudo rm -rf tea-wikipedia
+   31  cd /mnt/c/MAMP/htdocs
+   32  yarn create react-app tea-universe
+   33  cd tea-universe
+   34  yarn add eslint prettier eslint-plugin-react eslint-config-prettier eslint-plugin-prettier
+   35  yarn start
+   36  yarn upgrade react-scripts
+   37  yarn prettier --write "src/**/*.{js,jsx}"
+   38  yarn eslint --fix "src/**/*.{js,jsx}"
+   39  mv .eslintrc.js eslint.config.js
+   40  yarn add eslint-define-config
+   41  yarn prettier --write "src/**/*.{js,jsx}"
+   42  yarn eslint --fix "src/**/*.{js,jsx}"
+   43  rm -rf node_modules yarn.lock
+   44  yarn install
+   45  yarn add eslint-config-react-app eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react eslint-plugin-react-hooks
+   46  yarn prettier --write "src/**/*.{js,jsx}"
+   47  yarn eslint --fix "src/**/*.{js,jsx}"
+   48  yarn add react-router-dom
+   49  yarn start
+   50  yarn start 
+   51  yarn start
+   52  cd
+   53  cd C:\MAMP\htdocs
+   54  cd /mnt/c/MAMP/htdocs
+   55  cd "C:\MAMP\htdocs"
+   56  cd /mnt/c/MAMP/htdocs
+   57  npx create-react-app my-app
+   58  cd my-app
+   59  yarn start
+   60  npm i
+   61  yarn start
+   62  pwd
+   63  cd..
+   64  cd ..
+   65  cp employees_template ~/
+   66  rm -rf employees_template/node_modules/
+   67  cd ..
+   68  rm -rf employees_template/node_modules/
+   69  cd employees_template/
+   70  ls -lah
+   71  cd ..
+   72  cp -r employees_template/ ~/
+   73  cd
+   74  ls -lah
+   75  cd employees_template/
+   76  yarn
+   77  yarn start 
+   78  cd
+   79  cd employees_template/
+   80  code .
+   81  explorer.exe . 
+   82  yarn start 
+   83  eslint --init
+   84  sudo apt install eslint
+   85  eslint --init
+   86  sudo apt install eslint
+   87  npm i -g eslint
+   88  chmod 755 /usr/lib/node_modules/ 
+   89  sudo chmod 755 /usr/lib/node_modules/ 
+   90  npm i -g eslint
+   91  cd
+   92  mkdir npm 
+   93  npm config set prefix ~/npm
+   94  eslint --init
+   95  npx eslint --init
+   96  ls -lah
+   97  cd
+   98  cd Work_station/employees_template/
+   99  eslint
+  100  sudo apt install eslint
+  101  which node
+  102  node --version
+  103  cd src app
+  104  cd src/app
+  105  cd src/components/app
+  106  ls
+  107  npx eslint app.js
+  108  yarn start 
+  109  rm -rf node_modules
+  110  ды
+  111  ls
+  112  cd
+  113  /mnt/c/Users/yaros/OneDrive/Рабочий стол/C50w/mail
+  114  python manage.py makemigrations mail
+  115  python3 manage.py makemigrations mail
+  116  python3 -m venv venv
+  117  source venv/bin/activate
+  118  ls
+  119  source venv/bin/activate
+  120  python3 manage.py makemigrations mail
+  121  python3 -m venv venv
+  122  sudo apt update
+  123  sudo apt install python3-venv
+  124  python3 -m venv venv
+  125  source venv/bin/activate
+  126  pip install django
+  127  python3 manage.py makemigrations mail
+  128  python3 manage.py migrate
+  129  python3 manage.py runserver
+  130  tree -L 3
+  131  sudo apt install tree
+  132  tree -L 3
+  133  submit50 web50/projects/2020/x/mail
+  134  pip3 install submit50
+  135  sudo apt update
+  136  sudo apt install python3-pip
+  137  pip3 install submit50
+  138  submit50 web50/projects/2020/x/mail
+  139  export PATH=$PATH:$HOME/.local/bin
+  140  submit50 web50/projects/2020/x/mail
+  141  cd ~/work_station
+  142  mkdir mail_submit
+  143  cp -r mail/project3 mail/manage.py mail/mail mail_submit/
+  144  cd mail_submit
+  145  submit50 web50/projects/2020/x/mail
+  146  zip -r mail.zip mail_submit/
+  147  sudo apt update
+  148  sudo apt install zip
+  149  zip -r mail.zip mail_submit/
+  150  cd ..
+  151  zip -r mail.zip mail_submit/
+  152  git clone https://github.com/ypodonin/HW_10.git
+  153  cd HW_10
+  154  touch text_ignore.txt
+  155  echo "text_ignore.txt" >> .gitignore
+  156  git status
+  157  git add .
+  158  git commit -m "Add .gitignore rule for text_ignore.txt"
+  159  git config --global user.email "yarosalv.podonin@gmail.com"
+  160  git commit -m "Add .gitignore rule for text_ignore.txt"
+  161  touch main_test.txt
+  162  git add .
+  163  git commit -m "Add empty main_test.txt"
+  164  git checkout -b develop
+  165  touch develop_test.txt
+  166  git add .
+  167  git commit -m "Add empty develop_test.txt"
+  168  echo "just a small change" >> develop_test.txt
+  169  git status
+  170  git add .
+  171  git commit -m "Update develop_test.txt with a small change"
+  172  git checkout main
+  173  git merge develop
+  174  git log --oneline --graph --all
+  175  history > command_list.csv
